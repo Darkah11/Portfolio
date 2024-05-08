@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --black: #040910;
+    --white: #ffffff;
+    --blue: #4A96EF;
+    --gray-text: #68798C;
+    --white-text: #D8DEE5;
+  }
+  
+  body { background-color: var(--blue); }
+
+* {
+    padding: 0;
+    margin: 0;
+    /* list-style-type: none; */
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    color: var(--white-text);
+    background-color: var(--black);
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+}
+/* h1 span {
+    color: blue;
+} */
+.hero-text {
+    text-align: center;
+}
+h1 {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    align-self: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    text-shadow: 2px 2px 0px #8695a7,
+      4px 4px 0px #6e87a3,  
+      6px 6px 0px #4e81bb, 
+      8px 8px 0px #4A96EF;
+}
+.roles {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    /* list-style-type: lower-roman; */
+}
+nav {
+    display: none;
+    position: relative;
+    padding: 30px 0;
+}
+.close-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: var(--white-text);
+    cursor: pointer;
+}
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+.nav-link{
+    padding: 5px 10px;
+    display: block;
+    color: var(--gray-text);
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+    transition: color 0.5s linear, font-size 0.5s linear;
+} 
+.nav-link:hover {
+    color: var(--white);
+    font-size: 4rem;
+}
+.resume {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 40px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.resume-img {
+    display: none;
+}
+.resume:hover {
+    background-color: #4a97efe5;
+}
+.explore-btn {
+    border: 1px solid var(--blue);
+    background-color: transparent;
+    color: var(--blue);
+    padding: 10px 50px;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}
+.explore-btn:hover {
+    border: 1px solid var(--white-text);
+    color: var(--white-text);
+}
+#about {
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+#about div h2 {
+    font-size: 40px;
+}
+.about-text {
+    max-width: 600px;
+}
+.brief {
+    color: var(--gray-text);
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.about-img {
+    margin-top: 80px;
+    max-width: 500px;
+    margin: 80px auto 0;
+}
+.about-img img{
+    width: 100%;
+    display: block;
+}
+#skills {
+    padding: 50px 20px;
+}
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hard-skills h3, .soft-skills h3 {
+    color: var(--gray-text);
+    padding-bottom: 10px;
+}
+.hard-skills, .soft-skills {
+    list-style-type: none;
+    width: 50%;
+}
+#skills h2 {
+    font-size: 40px;
+}
+.hard-skills {
+    margin: 50px 0 30px;
+
+}
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.bar {
+    width: 60%;
+    background-color: var(--blue);
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+.bar span {
+    font-size: 10px;
+    position: absolute;
+    bottom: -4px;
+    right: 5px;
+    color: var(--black);
+}
+#projects {
+    padding: 0 20px;
+}
+.project-wrapper {
+    padding: 50px 0;
+}
+.project-text span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.project-title {
+    font-size: 2.5rem;
+    color: var(--white-text);
+    display: block;
+}
+.project-brief {
+    color: var(--gray-text);
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.skill-used {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.skill-used li p {
+    color: var(--blue);
+}
+.project-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    max-width: 280px;
+    margin: auto;
+}
+.project-img img{
+    width: 100%;
+}
+footer {
+    padding: 50px 20px;
+}
+footer h2 {
+    font-size: 40px;
+}
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.social-media a {
+    color: var(--gray-text);
+    font-size: 24px;
+}
+.social-media a:hover {
+    color: var(--blue);
+}
+
+
+
+/* toggle nav */
+nav.active {
+    display: block;
+}
+
+@media (min-width:750px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    #about div h2 {
+        font-size: 50px;
+    }
+    #skills h2 {
+        font-size: 50px;
+    }
+    footer h2 {
+        font-size: 50px;
+    }
+   }
+@media (min-width:850px) {
+    #about {
+        min-height: 100vh;
+        padding: 50px 40px;
+    }
+    #skills {
+        padding: 50px 40px;
+        min-height: 100vh;
+    }
+    #projects {
+        padding: 0 40px;
+    }
+    .resume {
+        right: 40px;
+        top: 20px;
+    }
+    .project-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+    .project-img {
+        margin: 0;
+    }
+    footer {
+        padding: 50px 40px;
+    }
+   }
+   @media (min-width:850px) {
+        #about {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .about-text {
+            max-width: 50%;
+        }
+   }
+   @media (min-width:1050px) {
+        h1 {
+            font-size: 7rem;
+        }
+        #about div h2 {
+            font-size: 60px;
+        }
+        #skills h2 {
+            font-size: 60px;
+        }
+        footer h2 {
+            font-size: 60px;
+        }
+        .explore-btn {
+            font-size: 22px;
+        }
+        .resume {
+            font-size: 20px;
+        }
+        .project-title {
+            font-size: 4rem;
+        }
+        .project-img {
+            max-width: 300px;
+        }
+   }
+   @media (min-width:1150px) {
+    #about {
+        padding: 50px 100px;
+    }
+    #skills {
+        padding: 50px 100px;
+    }
+    #projects {
+        padding: 50px 100px;
+    }
+    footer {
+        padding: 50px 100px;
+    }
+   }
