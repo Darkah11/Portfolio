@@ -62,7 +62,7 @@ const animateX = {
 
 export default function Home() {
   return (
-    <main className="max-w-[1440px] mx-auto">
+    <main className="max-w-[1440px] mx-auto ">
       <section className=" relative h-screen flex justify-center items-center flex-col">
         <motion.a
           initial={{ opacity: 0, y: 0 }}
@@ -148,7 +148,7 @@ export default function Home() {
       </div>
       <section className=" px-5">
         <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-0 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
               <p>01</p>
             </BlockReveal>
@@ -179,7 +179,7 @@ export default function Home() {
           <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
             <Image
               src={nomark1}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -189,7 +189,7 @@ export default function Home() {
             />
             <Image
               src={nomark3}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-0 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
               <p>02</p>
             </BlockReveal>
@@ -230,7 +230,7 @@ export default function Home() {
           <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
             <Image
               src={ec1}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project images"
             />
             <Image
@@ -240,7 +240,7 @@ export default function Home() {
             />
             <Image
               src={ec3}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -251,7 +251,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-0 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
               <p>03</p>
             </BlockReveal>
@@ -281,7 +281,7 @@ export default function Home() {
           <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
             <Image
               src={wn1}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project images"
             />
             <Image
@@ -291,7 +291,7 @@ export default function Home() {
             />
             <Image
               src={wn3}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -302,7 +302,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-0 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
               <p>04</p>
             </BlockReveal>
@@ -330,7 +330,7 @@ export default function Home() {
           <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
             <Image
               src={bog1}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project images"
             />
             <Image
@@ -340,7 +340,7 @@ export default function Home() {
             />
             <Image
               src={bog3}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -351,7 +351,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-0 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
               <p>05</p>
             </BlockReveal>
@@ -377,7 +377,7 @@ export default function Home() {
           <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
             <Image
               src={tss1}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project images"
             />
             <Image
@@ -387,7 +387,7 @@ export default function Home() {
             />
             <Image
               src={tss3}
-              className=" w-[150px] md:w-[200px] lg:w-auto"
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
               alt="nomark project image"
             />
             <Image
@@ -398,13 +398,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className=" px-5 min-h-screen flex items-center justify-center relative">
+      <section className=" px-5 py-24 relative">
         <motion.h2
           variants={animateX}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.5 }}
-          className=" absolute top-16 left-5 text-3xl font-bold text-grey lg:text-5xl tracking-[0.2em]"
+          className=" z-30 text-3xl mb-10 font-bold text-white lg:text-5xl tracking-[0.2em]"
         >
           SKILLS
         </motion.h2>
@@ -447,7 +447,7 @@ export default function Home() {
         >
           <a
             href="mailto:harrisegue9@gmail.com"
-            className=" text-3xl lg:text-6xl text-grey"
+            className=" text-2xl lg:text-6xl text-grey"
           >
             harrisegue9@gmail.com
           </a>
