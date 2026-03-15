@@ -283,7 +283,7 @@ export default function Home() {
                 Darkah Task App is a streamlined productivity tool built on the
                 Kanban methodology to help users visualize and manage their
                 workflows. It uses a card-and-column system—typically
-                categorized by "To Do", "In Progress", "Pending", and "Completed" to track tasks
+                categorized by &quot;To Do&quot;, &quot;In Progress&quot;, &quot;Pending&quot;, and &quot;Completed&quot; to track tasks
                 from start to finish.
               </p>
             </BlockReveal>
