@@ -27,7 +27,15 @@ import bog1 from "@/public/bog1.png";
 import bog2 from "@/public/bog2.png";
 import bog3 from "@/public/bog3.png";
 import bog4 from "@/public/bog4.png";
-import tss1 from "@/public/tss1.png";
+import dl1 from "@/public/dl1.png";
+import dl2 from "@/public/dl2.png";
+import dl3 from "@/public/dl3.png";
+import dl4 from "@/public/dl4.png";
+import dta1 from "@/public/dta1.png";
+import dta2 from "@/public/dta1.png";
+import dta3 from "@/public/dta2.png";
+import dta4 from "@/public/dta3.png";
+import tss1 from "@/public/tss4.png";
 import tss2 from "@/public/tss2.png";
 import tss3 from "@/public/tss3.png";
 import tss4 from "@/public/tss4.png";
@@ -153,9 +161,167 @@ export default function Home() {
               <p>01</p>
             </BlockReveal>
             <Link
+              href={"https://the-skinfidential-series.vercel.app/"}
+              target="_blank"
+              className=" font-bold text-4xl hover:text-primary inline-block"
+            >
+              <BlockReveal>The Skinfidential Series</BlockReveal>
+            </Link>
+            <BlockReveal>
+              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
+                Next.js <GoDotFill className="text-white" /> Typescript{" "}
+                <GoDotFill className="text-white" /> Firebase
+              </p>
+            </BlockReveal>
+            <BlockReveal>
+              <p className=" mt-5 text-lg">
+                The Skinfidential Series is a premium e-commerce platform
+                dedicated to offering a curated selection of high-quality
+                skincare products.
+              </p>
+            </BlockReveal>
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
+            <Image
+              src={tss1}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project images"
+            />
+            <Image
+              src={tss2}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+            <Image
+              src={tss3}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project image"
+            />
+            <Image
+              src={tss4}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+          </div>
+        </div>
+        <div className="lg:flex gap-x-10 relative">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
+              <p>02</p>
+            </BlockReveal>
+            <Link
+              href={"https://dark-labs-ten.vercel.app/"}
+              target="_blank"
+              className=" font-bold text-4xl hover:text-primary inline-block"
+            >
+              <BlockReveal>Dark Labs</BlockReveal>
+            </Link>
+            <BlockReveal>
+              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
+                Next.js <GoDotFill className="text-white" /> MongoDb{" "}
+                <GoDotFill className="text-white" /> Python
+              </p>
+            </BlockReveal>
+            <BlockReveal>
+              <p className=" mt-5 text-lg">
+                Dark Labs is a specialized health-tech platform designed to
+                simplify medical screening through an integrated Machine
+                Learning (ML) engine that analyzes user data to predict the risk
+                of chronic conditions like diabetes, stroke, and hypertension.
+                It also serves as a wellness hub, offering a library of health
+                blogs focused on preventative care, lifestyle tips, and managing
+                long-term illnesses.
+              </p>
+            </BlockReveal>
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
+            <Image
+              src={dl1}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project images"
+            />
+            <Image
+              src={dl2}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+            <Image
+              src={dl3}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project image"
+            />
+            <Image
+              src={dl4}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+          </div>
+        </div>
+        <div className="lg:flex gap-x-10 relative">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
+              <p>03</p>
+            </BlockReveal>
+            <Link
+              href={"https://darkah-task-app.vercel.app/"}
+              target="_blank"
+              className=" font-bold text-4xl hover:text-primary inline-block"
+            >
+              <BlockReveal>Darkah Task App</BlockReveal>
+            </Link>
+            <BlockReveal>
+              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
+                Next.js <GoDotFill className="text-white" /> Firebase
+              </p>
+            </BlockReveal>
+            <BlockReveal>
+              <p className=" mt-5 text-lg">
+                Darkah Task App is a streamlined productivity tool built on the
+                Kanban methodology to help users visualize and manage their
+                workflows. It uses a card-and-column system—typically
+                categorized by "To Do", "In Progress", "Pending", and "Completed" to track tasks
+                from start to finish.
+              </p>
+            </BlockReveal>
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
+            <Image
+              src={dta1}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project images"
+            />
+            <Image
+              src={dta2}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+            <Image
+              src={dta3}
+              className=" w-[150px] md:w-[200px] lg:w-auto relative"
+              alt="nomark project image"
+            />
+            <Image
+              src={dta4}
+              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
+              alt="nomark project image"
+            />
+          </div>
+        </div>
+        <div className="lg:flex gap-x-10 relative">
+          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
+            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
+              <p>04</p>
+            </BlockReveal>
+            <Link
               href={"https://nomarkinc.vercel.app/"}
               target="_blank"
-              className=" font-bold text-4xl hover:text-primary"
+              className=" font-bold text-4xl hover:text-primary inline-block"
             >
               <BlockReveal>Nomark</BlockReveal>
             </Link>
@@ -202,12 +368,12 @@ export default function Home() {
         <div className="lg:flex gap-x-10 relative">
           <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
             <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
-              <p>02</p>
+              <p>05</p>
             </BlockReveal>
             <Link
               href={"https://emerging-crypto.vercel.app/"}
               target="_blank"
-              className=" font-bold text-4xl hover:text-primary"
+              className=" font-bold text-4xl hover:text-primary inline-block"
             >
               <BlockReveal>Emerging Crypto</BlockReveal>
             </Link>
@@ -245,153 +411,6 @@ export default function Home() {
             />
             <Image
               src={ec4}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-          </div>
-        </div>
-        <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
-            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
-              <p>03</p>
-            </BlockReveal>
-            <Link
-              href={"https://weather-now-seven-dun.vercel.app/"}
-              target="_blank"
-              className=" font-bold text-4xl hover:text-primary"
-            >
-              <BlockReveal>Weather Now</BlockReveal>
-            </Link>
-            <BlockReveal>
-              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
-                Next.js <GoDotFill className="text-white" /> Tailwind{" "}
-                <GoDotFill className="text-white" /> RestAPI
-              </p>
-            </BlockReveal>
-            <BlockReveal>
-              <p className=" mt-5 text-lg">
-                Weather Now is a dynamic, user-friendly web application designed
-                to provide real-time and forecasted weather conditions for
-                cities worldwide.
-              </p>
-            </BlockReveal>
-          </div>
-
-          {/* RIGHT SIDE */}
-          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
-            <Image
-              src={wn1}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project images"
-            />
-            <Image
-              src={wn2}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-            <Image
-              src={wn3}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project image"
-            />
-            <Image
-              src={wn4}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-          </div>
-        </div>
-        <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
-            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
-              <p>04</p>
-            </BlockReveal>
-            <Link
-              href={"https://www.boredofficeguy.com/"}
-              target="_blank"
-              className=" font-bold text-4xl hover:text-primary"
-            >
-              <BlockReveal>BoredOg</BlockReveal>
-            </Link>
-            <BlockReveal>
-              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
-                Next.js <GoDotFill className="text-white" /> Tailwind
-              </p>
-            </BlockReveal>
-            <BlockReveal>
-              <p className=" mt-5 text-lg">
-                BoredOg is a unique and engaging web platform built around a
-                novel, community-driven cryptocurrency token called $BOREDOG
-              </p>
-            </BlockReveal>
-          </div>
-
-          {/* RIGHT SIDE */}
-          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
-            <Image
-              src={bog1}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project images"
-            />
-            <Image
-              src={bog2}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-            <Image
-              src={bog3}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project image"
-            />
-            <Image
-              src={bog4}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-          </div>
-        </div>
-        <div className="lg:flex gap-x-10 relative">
-          <div className=" lg:w-1/2 sticky top-10 lg:top-[10%] py-10 lg:py-36 max-w-[500px] lg:max-w-none lg:px-10  h-fit self-start">
-            <BlockReveal className=" bottom-8 lg:bottom-32 font-bold text-2xl">
-              <p>05</p>
-            </BlockReveal>
-            <Link href={"/"} className=" font-bold text-4xl hover:text-primary">
-              <BlockReveal>The Skinfidential Series</BlockReveal>
-            </Link>
-            <BlockReveal>
-              <p className=" mt-5 text-lg font-medium flex items-center gap-x-1 text-grey">
-                Next.js <GoDotFill className="text-white" /> Typescript{" "}
-                <GoDotFill className="text-white" /> Firebase
-              </p>
-            </BlockReveal>
-            <BlockReveal>
-              <p className=" mt-5 text-lg">
-                The Skinfidential Series is a premium e-commerce platform
-                dedicated to offering a curated selection of high-quality
-                skincare products.
-              </p>
-            </BlockReveal>
-          </div>
-
-          {/* RIGHT SIDE */}
-          <div className="grid grid-cols-2 w-full lg:w-1/2 lg:gap-x-12 gap-y-32 justify-between pb-52 lg:pb-64">
-            <Image
-              src={tss1}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project images"
-            />
-            <Image
-              src={tss2}
-              className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
-              alt="nomark project image"
-            />
-            <Image
-              src={tss3}
-              className=" w-[150px] md:w-[200px] lg:w-auto relative"
-              alt="nomark project image"
-            />
-            <Image
-              src={tss4}
               className=" w-[150px] ml-auto md:w-[200px] lg:w-auto relative top-32"
               alt="nomark project image"
             />
