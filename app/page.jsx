@@ -76,9 +76,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.5 }}
-          href="/harris-cv.pdf"
+          href="/harrisCV.pdf"
           target="_blank"
-          download="/harris-cv.pdf"
+          // download="/harrisCV.pdf"
           className=" absolute top-5 right-5"
         >
           <button className=" bg-primary px-5 py-2 rounded-md">Resume</button>
